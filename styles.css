@@ -44,17 +44,6 @@ body {
   z-index: 2;
 }
 
-h1 {
-  color: white;
-  font-size: 2rem;
-  text-transform: uppercase;
-  letter-spacing: 0.125em;
-}
-
-.header h1 {
-  padding-left: 6vw;
-}
-
 .loginButtons {
   display: flex;
   gap: 1rem;
@@ -88,4 +77,24 @@ h1 {
   padding: 1rem 2rem;
   border-radius: 0.25rem;
   margin: 0 auto;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.125em;
+  padding-left: 6vw;
+}
+
+.featured {
+  position: relative;
+  top: 0;
+  width: 100%;
+  padding: 1.5rem 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(0, 0, 0, 0.32);
+  z-index: 2;
 }
