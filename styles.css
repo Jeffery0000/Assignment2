@@ -99,6 +99,18 @@ h1 {
   align-items: center;
   background: rgba(0, 0, 0, 0.32);
   z-index: 2;
+  flex-wrap: wrap;
+}
+
+.featuredPosters {
+  display: flex;
+  gap: 1rem;
+  flex-basis: 100%;
+  margin: 1rem 5rem;
+}
+
+.featuredPoster {
+  width: 10vw;
 }
 
 .logoImage {
