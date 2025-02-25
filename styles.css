@@ -115,3 +115,23 @@ h1 {
   align-items: center;
   gap: 2rem;
 }
+
+.footer {
+  width: 100%;
+  background: #2a2d31;
+  padding: 1rem 4rem;
+  color: #fff;
+}
+
+.footer a {
+  margin: 0;
+}
+
+.footer .title {
+  margin-bottom: 3rem;
+}
+
+.githubIcon,.classroomLogo {
+  width: 5vw;
+  margin-left: 15vw;
+}
