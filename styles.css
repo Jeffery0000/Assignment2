@@ -49,7 +49,7 @@ body {
   position: fixed;
   top: 0;
   width: 100%;
-  padding: 0.75rem 3.5vw;
+  padding: 0.75rem 0rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -81,7 +81,7 @@ body {
 .loginButtons {
   display: flex;
   gap: 1rem;
-  margin: 0;
+  margin: 0 1rem;
 }
 
 .loginButtons button {
@@ -178,7 +178,7 @@ h1 {
 }
 
 .featuredHeader {
-  padding-left: 9.5vw;
+  padding-left: 6vw;
   text-align: left;
 }
 
@@ -211,10 +211,45 @@ h1 {
 .footer .title {
   padding-top: 1rem;
   padding-bottom: 1rem;
-  margin: 1rem 3.5vw 3rem;
+  margin: 1rem 0rem 1rem;
 }
 
-.githubIcon,.classroomLogo,.assignmentLogo {
+.githubIcon,.classroomLogo,.assignmentLogo, .emailLogo{
   width: 5vw;
-  margin-left: 15vw;
+}
+
+.footerColumns {  
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+p {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+  margin: 0.5rem;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.linkRow, .contactRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  gap: 0.5rem;
 }
