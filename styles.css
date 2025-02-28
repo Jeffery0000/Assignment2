@@ -215,6 +215,10 @@ h1 {
   gap: 2vw;
 }
 
+.copywrite {
+  text-align: center;
+}
+
 .footer {
   width: 100%;
   background: #2a2d31;
