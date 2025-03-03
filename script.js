@@ -31,5 +31,5 @@ setInterval(() => {
             heroImage.removeEventListener('load', onLoad);
       });
       
-    }, 800); 
+    }, 500); 
 }, 5000);
